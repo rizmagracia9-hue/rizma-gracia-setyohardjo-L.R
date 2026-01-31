@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>929</width>
+    <height>569</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color:#0000d4
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 14px;
+    border: 1px solid #dcdcdc;
+
+    /* Shadow halus */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 40);
+}
+
+QPushButton:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #c8c8c8;
+}
+
+QPushButton:pressed {
+    background-color: #f0f0f0;
+    box-shadow: none;  /* shadow hilang saat ditekan */
+    border: 1px solid #bababa;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Dashboard</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Downloads/dashboard.png</normaloff>../../Downloads/dashboard.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 14px;
+    border: 1px solid #dcdcdc;
+
+    /* Shadow halus */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 40);
+}
+
+QPushButton:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #c8c8c8;
+}
+
+QPushButton:pressed {
+    background-color: #f0f0f0;
+    box-shadow: none;  /* shadow hilang saat ditekan */
+    border: 1px solid #bababa;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Stok Obat</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Downloads/medicine.png</normaloff>../../Downloads/medicine.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>130</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 14px;
+    border: 1px solid #dcdcdc;
+
+    /* Shadow halus */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 40);
+}
+
+QPushButton:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #c8c8c8;
+}
+
+QPushButton:pressed {
+    background-color: #f0f0f0;
+    box-shadow: none;  /* shadow hilang saat ditekan */
+    border: 1px solid #bababa;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Supplier</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Downloads/supplier.png</normaloff>../../Downloads/supplier.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>180</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 14px;
+    border: 1px solid #dcdcdc;
+
+    /* Shadow halus */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 40);
+}
+
+QPushButton:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #c8c8c8;
+}
+
+QPushButton:pressed {
+    background-color: #f0f0f0;
+    box-shadow: none;  /* shadow hilang saat ditekan */
+    border: 1px solid #bababa;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Pembelian</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Downloads/grocery-store.png</normaloff>../../Downloads/grocery-store.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>230</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 14px;
+    border: 1px solid #dcdcdc;
+
+    /* Shadow halus */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 40);
+}
+
+QPushButton:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #c8c8c8;
+}
+
+QPushButton:pressed {
+    background-color: #f0f0f0;
+    box-shadow: none;  /* shadow hilang saat ditekan */
+    border: 1px solid #bababa;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Penjualan</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Downloads/sales.png</normaloff>../../Downloads/sales.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>280</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 14px;
+    border: 1px solid #dcdcdc;
+
+    /* Shadow halus */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 40);
+}
+
+QPushButton:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #c8c8c8;
+}
+
+QPushButton:pressed {
+    background-color: #f0f0f0;
+    box-shadow: none;  /* shadow hilang saat ditekan */
+    border: 1px solid #bababa;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Data Pembeli</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Downloads/exploratory-analysis.png</normaloff>../../Downloads/exploratory-analysis.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>450</y>
+         <width>121</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #ff3333;
+    color: white;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 14px;
+    border: none;
+
+    /* Glow merah */
+    box-shadow: 0 0 10px rgba(255, 50, 50, 180);
+}
+
+QPushButton:hover {
+    background-color: #e62828;
+    box-shadow: 0 0 14px rgba(255, 50, 50, 220);
+}
+
+QPushButton:pressed {
+    background-color: #c71f1f;
+    box-shadow: none;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Keluar</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_2">
+      <property name="minimumSize">
+       <size>
+        <width>700</width>
+        <height>500</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color:#ffffff
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QFrame" name="frame_3">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame{
+background-color:#dddddd}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>16</y>
+            <width>381</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>SISTEM MANAJEMEN APOTEK RIGA</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_4">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <widget class="QPushButton" name="pushButton_7">
+          <property name="geometry">
+           <rect>
+            <x>574</x>
+            <y>20</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>9</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+    background-color: #2d89ef;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 12px;
+}
+
+QPushButton:hover {
+    background-color: #1e5fbf;
+}
+</string>
+          </property>
+          <property name="text">
+           <string>Tambah</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../../Downloads/plus.png</normaloff>../../Downloads/plus.png</iconset>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>10</y>
+            <width>171</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Supplier</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>40</y>
+            <width>191</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Reference Sans Serif</family>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Kelola data supplier obat</string>
+          </property>
+         </widget>
+         <widget class="QFrame" name="frame_5">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>70</y>
+            <width>651</width>
+            <height>341</height>
+           </rect>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLineEdit" name="lineEdit">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>20</y>
+             <width>631</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Cari Supplier</string>
+           </property>
+          </widget>
+          <widget class="QTableWidget" name="tableWidget">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>50</y>
+             <width>631</width>
+             <height>201</height>
+            </rect>
+           </property>
+           <row>
+            <property name="text">
+             <string>1</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>3</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>5</string>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string>Nama Supplier</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Alamat</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Telepon</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Email</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Aksi</string>
+            </property>
+           </column>
+           <item row="0" column="0">
+            <property name="text">
+             <string>PT Sehat Farma</string>
+            </property>
+           </item>
+           <item row="0" column="1">
+            <property name="text">
+             <string>JL. Kesehatan No. 123</string>
+            </property>
+           </item>
+           <item row="0" column="2">
+            <property name="text">
+             <string>022-5556789</string>
+            </property>
+           </item>
+           <item row="0" column="3">
+            <property name="text">
+             <string>info@sehatfarma.co.id</string>
+            </property>
+           </item>
+           <item row="1" column="0">
+            <property name="text">
+             <string>CV Jaya Abadi</string>
+            </property>
+           </item>
+           <item row="1" column="1">
+            <property name="text">
+             <string>JL. Pahlawan No. 45</string>
+            </property>
+           </item>
+           <item row="1" column="2">
+            <property name="text">
+             <string>022-6678901</string>
+            </property>
+           </item>
+           <item row="1" column="3">
+            <property name="text">
+             <string>contact@jayabadi.com</string>
+            </property>
+           </item>
+           <item row="2" column="0">
+            <property name="text">
+             <string>UD Medka Prima</string>
+            </property>
+           </item>
+           <item row="2" column="1">
+            <property name="text">
+             <string>JL. Mawar No. 07</string>
+            </property>
+           </item>
+           <item row="2" column="2">
+            <property name="text">
+             <string>022-7789012</string>
+            </property>
+           </item>
+           <item row="2" column="3">
+            <property name="text">
+             <string>udmedika@gmail.com</string>
+            </property>
+           </item>
+           <item row="3" column="0">
+            <property name="text">
+             <string>Apotek Segar Waras</string>
+            </property>
+           </item>
+           <item row="3" column="1">
+            <property name="text">
+             <string>JL. Anggrek No. 33</string>
+            </property>
+           </item>
+           <item row="3" column="2">
+            <property name="text">
+             <string>022-8890123</string>
+            </property>
+           </item>
+           <item row="3" column="3">
+            <property name="text">
+             <string>apoteksegar@gmail.com</string>
+            </property>
+           </item>
+          </widget>
+          <widget class="QPushButton" name="pushButton_9">
+           <property name="geometry">
+            <rect>
+             <x>550</x>
+             <y>90</y>
+             <width>31</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 170, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../write_17964667.png</normaloff>../../write_17964667.png</iconset>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_10">
+           <property name="geometry">
+            <rect>
+             <x>590</x>
+             <y>90</y>
+             <width>31</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 85, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../remove_7855869.png</normaloff>../../remove_7855869.png</iconset>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_11">
+           <property name="geometry">
+            <rect>
+             <x>550</x>
+             <y>130</y>
+             <width>31</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 170, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../write_17964667.png</normaloff>../../write_17964667.png</iconset>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_12">
+           <property name="geometry">
+            <rect>
+             <x>550</x>
+             <y>170</y>
+             <width>31</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 170, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../write_17964667.png</normaloff>../../write_17964667.png</iconset>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_13">
+           <property name="geometry">
+            <rect>
+             <x>550</x>
+             <y>200</y>
+             <width>31</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 170, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../write_17964667.png</normaloff>../../write_17964667.png</iconset>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_14">
+           <property name="geometry">
+            <rect>
+             <x>590</x>
+             <y>130</y>
+             <width>31</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 85, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../remove_7855869.png</normaloff>../../remove_7855869.png</iconset>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_15">
+           <property name="geometry">
+            <rect>
+             <x>590</x>
+             <y>170</y>
+             <width>31</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 85, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../remove_7855869.png</normaloff>../../remove_7855869.png</iconset>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_16">
+           <property name="geometry">
+            <rect>
+             <x>590</x>
+             <y>200</y>
+             <width>31</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 85, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../remove_7855869.png</normaloff>../../remove_7855869.png</iconset>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>929</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

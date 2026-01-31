@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>931</width>
+    <height>837</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color:#0000d4
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 14px;
+    border: 1px solid #dcdcdc;
+
+    /* Shadow halus */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 40);
+}
+
+QPushButton:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #c8c8c8;
+}
+
+QPushButton:pressed {
+    background-color: #f0f0f0;
+    box-shadow: none;  /* shadow hilang saat ditekan */
+    border: 1px solid #bababa;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Dashboard</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Downloads/dashboard.png</normaloff>../../Downloads/dashboard.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 14px;
+    border: 1px solid #dcdcdc;
+
+    /* Shadow halus */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 40);
+}
+
+QPushButton:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #c8c8c8;
+}
+
+QPushButton:pressed {
+    background-color: #f0f0f0;
+    box-shadow: none;  /* shadow hilang saat ditekan */
+    border: 1px solid #bababa;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Stok Obat</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Downloads/medicine.png</normaloff>../../Downloads/medicine.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>130</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 14px;
+    border: 1px solid #dcdcdc;
+
+    /* Shadow halus */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 40);
+}
+
+QPushButton:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #c8c8c8;
+}
+
+QPushButton:pressed {
+    background-color: #f0f0f0;
+    box-shadow: none;  /* shadow hilang saat ditekan */
+    border: 1px solid #bababa;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Supplier</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Downloads/supplier.png</normaloff>../../Downloads/supplier.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>180</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 14px;
+    border: 1px solid #dcdcdc;
+
+    /* Shadow halus */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 40);
+}
+
+QPushButton:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #c8c8c8;
+}
+
+QPushButton:pressed {
+    background-color: #f0f0f0;
+    box-shadow: none;  /* shadow hilang saat ditekan */
+    border: 1px solid #bababa;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Pembelian</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Downloads/grocery-store.png</normaloff>../../Downloads/grocery-store.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>230</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 14px;
+    border: 1px solid #dcdcdc;
+
+    /* Shadow halus */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 40);
+}
+
+QPushButton:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #c8c8c8;
+}
+
+QPushButton:pressed {
+    background-color: #f0f0f0;
+    box-shadow: none;  /* shadow hilang saat ditekan */
+    border: 1px solid #bababa;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Penjualan</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Downloads/sales.png</normaloff>../../Downloads/sales.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>280</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 14px;
+    border: 1px solid #dcdcdc;
+
+    /* Shadow halus */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 40);
+}
+
+QPushButton:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #c8c8c8;
+}
+
+QPushButton:pressed {
+    background-color: #f0f0f0;
+    box-shadow: none;  /* shadow hilang saat ditekan */
+    border: 1px solid #bababa;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Data Pembeli</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Downloads/exploratory-analysis.png</normaloff>../../Downloads/exploratory-analysis.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>570</y>
+         <width>121</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #ff3333;
+    color: white;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 14px;
+    border: none;
+
+    /* Glow merah */
+    box-shadow: 0 0 10px rgba(255, 50, 50, 180);
+}
+
+QPushButton:hover {
+    background-color: #e62828;
+    box-shadow: 0 0 14px rgba(255, 50, 50, 220);
+}
+
+QPushButton:pressed {
+    background-color: #c71f1f;
+    box-shadow: none;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Keluar</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_2">
+      <property name="minimumSize">
+       <size>
+        <width>700</width>
+        <height>500</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color:#ffffff
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QFrame" name="frame_3">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame{
+background-color:#dddddd}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>16</y>
+            <width>381</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>SISTEM MANAJEMEN APOTEK RIGA</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_4">
+         <property name="styleSheet">
+          <string notr="true">JFrame{
+background-color:rgb(232, 232, 232)
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>161</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>DASHBOARD</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>40</y>
+            <width>231</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Reference Sans Serif</family>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Ringkasan Informasi Apotek Anda</string>
+          </property>
+         </widget>
+         <widget class="QFrame" name="frame_5">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>70</y>
+            <width>141</width>
+            <height>121</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QFrame {
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 18px;
+    transition: 150ms;
+}
+
+QFrame:hover {
+    background-color: #f7f7f7;
+    border: 1px solid #cfcfcf;
+    box-shadow: 0px 2px 8px rgba(0,0,0,60);   /* efek keren */
+}
+</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="label_4">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>20</y>
+             <width>91</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>TOTAL OBAT</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_16">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>60</y>
+             <width>61</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+color: rgb(255, 255, 0);</string>
+           </property>
+           <property name="text">
+            <string>128</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QFrame" name="frame_6">
+          <property name="geometry">
+           <rect>
+            <x>170</x>
+            <y>70</y>
+            <width>141</width>
+            <height>121</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QFrame {
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 18px;
+    transition: 150ms;
+}
+
+QFrame:hover {
+    background-color: #f7f7f7;
+    border: 1px solid #cfcfcf;
+    box-shadow: 0px 2px 8px rgba(0,0,0,60);   /* efek keren */
+}
+</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="label_5">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>20</y>
+             <width>111</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>TOTAL SUPPLIER</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_17">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>60</y>
+             <width>51</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>12</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QFrame" name="frame_7">
+          <property name="geometry">
+           <rect>
+            <x>320</x>
+            <y>70</y>
+            <width>141</width>
+            <height>121</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QFrame {
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 18px;
+    transition: 150ms;
+}
+
+QFrame:hover {
+    background-color: #f7f7f7;
+    border: 1px solid #cfcfcf;
+    box-shadow: 0px 2px 8px rgba(0,0,0,60);   /* efek keren */
+}
+</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="label_6">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>20</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>PENJUALAN HARI INI</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_18">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>60</y>
+             <width>111</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 170, 0);</string>
+           </property>
+           <property name="text">
+            <string>2.350.000</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QFrame" name="frame_8">
+          <property name="geometry">
+           <rect>
+            <x>470</x>
+            <y>70</y>
+            <width>141</width>
+            <height>121</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QFrame {
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 18px;
+    transition: 150ms;
+}
+
+QFrame:hover {
+    background-color: #f7f7f7;
+    border: 1px solid #cfcfcf;
+    box-shadow: 0px 2px 8px rgba(0,0,0,60);   /* efek keren */
+}
+</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="label_7">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>20</y>
+             <width>141</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>TRANSAKSI BULAN INI</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_19">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>60</y>
+             <width>51</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>98</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_20">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>60</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+             <weight>50</weight>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Transaksi</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QFrame" name="frame_9">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>200</y>
+            <width>291</width>
+            <height>211</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QFrame {
+    background-color: white;
+    border-radius: 10px; /* Sudut membulat */
+    border: 1px solid #E0E0E0; /* Batas abu-abu tipis */
+    padding: 15px; /* Jarak dari konten ke batas */
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="label_8">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>10</y>
+             <width>161</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>MS Shell Dlg 2</family>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Transaksi Terbaru</string>
+           </property>
+          </widget>
+          <widget class="QWidget" name="widget" native="true">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>40</y>
+             <width>271</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <widget class="QLabel" name="label_21">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>0</y>
+              <width>101</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Tanggal</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_22">
+            <property name="geometry">
+             <rect>
+              <x>130</x>
+              <y>0</y>
+              <width>131</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>8</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Keterangan</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="widget_2" native="true">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>90</y>
+             <width>271</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <widget class="QLabel" name="label_23">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>0</y>
+              <width>101</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string> Hari Ini</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_24">
+            <property name="geometry">
+             <rect>
+              <x>120</x>
+              <y>0</y>
+              <width>161</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Penjualan #INV0028</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="widget_3" native="true">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>140</y>
+             <width>271</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <widget class="QLabel" name="label_25">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>0</y>
+              <width>101</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Kemarin</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_26">
+            <property name="geometry">
+             <rect>
+              <x>120</x>
+              <y>0</y>
+              <width>161</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Pembelian dari PT Abadi Farmasi</string>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QFrame" name="frame_10">
+          <property name="geometry">
+           <rect>
+            <x>319</x>
+            <y>200</y>
+            <width>291</width>
+            <height>211</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QFrame {
+    background-color: white;
+    border-radius: 10px; /* Sudut membulat */
+    border: 1px solid #E0E0E0; /* Batas abu-abu tipis */
+    padding: 15px; /* Jarak dari konten ke batas */
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="label_9">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>121</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Stok Menipis</string>
+           </property>
+          </widget>
+          <widget class="QWidget" name="widget_4" native="true">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>40</y>
+             <width>271</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <widget class="QProgressBar" name="progressBar">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>20</y>
+              <width>251</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QProgressBar {
+    background-color: #F2F2F2;
+    border-radius: 6px;
+}
+
+QProgressBar::chunk {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #E74C3C,
+        stop:1 #F1C40F
+    );
+    border-radius: 6px;
+}
+</string>
+            </property>
+            <property name="value">
+             <number>40</number>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+            <property name="textVisible">
+             <bool>true</bool>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="invertedAppearance">
+             <bool>false</bool>
+            </property>
+            <property name="textDirection">
+             <enum>QProgressBar::BottomToTop</enum>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_10">
+            <property name="geometry">
+             <rect>
+              <x>-10</x>
+              <y>0</y>
+              <width>151</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Paracetamol 500mg</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_13">
+            <property name="geometry">
+             <rect>
+              <x>170</x>
+              <y>0</y>
+              <width>121</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>20 / 50 unit</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="widget_5" native="true">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>90</y>
+             <width>271</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <widget class="QProgressBar" name="progressBar_2">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>20</y>
+              <width>251</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QProgressBar {
+    background-color: #F2F2F2;
+    border-radius: 6px;
+}
+
+QProgressBar::chunk {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #E74C3C,
+        stop:1 #F1C40F
+    );
+    border-radius: 6px;
+}
+</string>
+            </property>
+            <property name="value">
+             <number>60</number>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_11">
+            <property name="geometry">
+             <rect>
+              <x>-10</x>
+              <y>0</y>
+              <width>151</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Amoxillin 500mg</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_14">
+            <property name="geometry">
+             <rect>
+              <x>170</x>
+              <y>0</y>
+              <width>121</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>15 / 25 unit</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="widget_6" native="true">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>140</y>
+             <width>271</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <widget class="QProgressBar" name="progressBar_3">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>20</y>
+              <width>251</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QProgressBar {
+    background-color: #F2F2F2;
+    border-radius: 6px;
+}
+
+QProgressBar::chunk {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #E74C3C,
+        stop:1 #F1C40F
+    );
+    border-radius: 6px;
+}
+</string>
+            </property>
+            <property name="value">
+             <number>25</number>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_12">
+            <property name="geometry">
+             <rect>
+              <x>-10</x>
+              <y>0</y>
+              <width>121</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>vitamin C</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_15">
+            <property name="geometry">
+             <rect>
+              <x>170</x>
+              <y>0</y>
+              <width>121</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>5 / 20 unit</string>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QFrame" name="frame_11">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>430</y>
+            <width>591</width>
+            <height>211</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QFrame {
+    background-color: white;
+    border-radius: 10px; /* Sudut membulat */
+    border: 1px solid #E0E0E0; /* Batas abu-abu tipis */
+    padding: 15px; /* Jarak dari konten ke batas */
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="label_27">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>10</y>
+             <width>161</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>MS Shell Dlg 2</family>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Transaksi Terbaru</string>
+           </property>
+          </widget>
+          <widget class="QWidget" name="widget_7" native="true">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>40</y>
+             <width>571</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <widget class="QLabel" name="label_28">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>0</y>
+              <width>101</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Tanggal</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_29">
+            <property name="geometry">
+             <rect>
+              <x>320</x>
+              <y>0</y>
+              <width>131</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>8</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Keterangan</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_34">
+            <property name="geometry">
+             <rect>
+              <x>160</x>
+              <y>0</y>
+              <width>101</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Catbgane</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="widget_8" native="true">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>90</y>
+             <width>571</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <widget class="QLabel" name="label_30">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>0</y>
+              <width>101</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string> Hari Ini</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_31">
+            <property name="geometry">
+             <rect>
+              <x>320</x>
+              <y>0</y>
+              <width>161</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Penjualan #INV0028</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_35">
+            <property name="geometry">
+             <rect>
+              <x>160</x>
+              <y>0</y>
+              <width>101</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Remaa</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="widget_9" native="true">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>140</y>
+             <width>571</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <widget class="QLabel" name="label_32">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>0</y>
+              <width>101</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Kemarin</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_33">
+            <property name="geometry">
+             <rect>
+              <x>320</x>
+              <y>0</y>
+              <width>231</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Pembelian dari PT Abadi Farmasi</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_36">
+            <property name="geometry">
+             <rect>
+              <x>160</x>
+              <y>0</y>
+              <width>101</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Khamen</string>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>931</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
